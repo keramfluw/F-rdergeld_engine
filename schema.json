@@ -1,0 +1,67 @@
+{
+  "version": "0.1.0",
+  "entity": "reg_item",
+  "description": "Regulatorische Änderungsmeldung, Förderung, Tarif oder verwandte Informationen",
+  "fields": [
+    {
+      "name": "id",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "recorded_at",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "effective_date",
+      "type": "TEXT",
+      "required": false
+    },
+    {
+      "name": "category",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "region",
+      "type": "TEXT",
+      "required": false
+    },
+    {
+      "name": "title",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "summary_md",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "source_url",
+      "type": "TEXT",
+      "required": false
+    },
+    {
+      "name": "source_org",
+      "type": "TEXT",
+      "required": false
+    },
+    {
+      "name": "change_type",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "impact_notes",
+      "type": "TEXT",
+      "required": false
+    },
+    {
+      "name": "tags_csv",
+      "type": "TEXT",
+      "required": false
+    }
+  ]
+}

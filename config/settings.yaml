@@ -1,0 +1,20 @@
+app_name: "Förder- & Tarif-Radar (MVP)"
+timezone: "Europe/Berlin"
+database_path: "data/radar.db"
+access_code_env: "FT_RADAR_ACCESS_CODE"
+digest_days_default: 7
+brand:
+  logo_path: "branding/assets/wulff_logo.png"
+  name: "Wulff technologies"
+  colors:
+    futuristic_red: "#FF0033"
+    cyber_black:    "#0A0A0A"
+    neon_blue:      "#00FFFF"
+    tech_grey:      "#888C8F"
+    pure_white:     "#FFFFFF"
+security:
+  allow_public: false
+legal:
+  disclaimer: >
+    Die bereitgestellten Informationen sind nach bestem Wissen kuratiert,
+    ersetzen jedoch keine Rechts- oder Steuerberatung. Keine Gewähr für Vollständigkeit.

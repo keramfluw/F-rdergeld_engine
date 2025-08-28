@@ -1,0 +1,29 @@
+tiers:
+  - name: "Starter"
+    price_eur_per_month: 99
+    includes_vat: false
+    features:
+      - "Kuratierter Feed (EEG/BEG/KfW/MSBG/Tarif)"
+      - "Wöchentlicher Digest (1 Empfänger)"
+      - "1 Nutzer, 1 Team"
+      - "Filter nach Kategorie, Region, Volltextsuche"
+      - "CSV/Markdown-Export"
+  - name: "Team"
+    price_eur_per_month: 249
+    includes_vat: false
+    features:
+      - "Alles aus Starter"
+      - "Bis zu 10 Empfänger"
+      - "Bis zu 5 Nutzer"
+      - "Basis-API (lesend, 5k Calls/Monat)"
+      - "Priorisierte Quellen & Alert-Regeln"
+      - "Support: NBD (Next Business Day)"
+  - name: "Pro"
+    price_eur_per_month: 499
+    includes_vat: false
+    features:
+      - "Alles aus Team"
+      - "Unbegrenzte Empfänger (Fair-Use)"
+      - "White-Label (Logo/Farben) & PDF-Report"
+      - "Erweiterte API/Webhooks (50k Calls/Monat)"
+      - "SLA 99.9%, priorisierter Support"

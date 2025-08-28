@@ -1,0 +1,30 @@
+[
+  {
+    "id": "seed-001",
+    "recorded_at": "2025-08-28T08:54:10Z",
+    "effective_date": "2025-09-11",
+    "category": "BEG",
+    "region": "DE",
+    "title": "Anpassung förderfähiger Kostenkategorien (Beispiel)",
+    "summary_md": "Beispiel: Erweiterung um zusätzliche **Gebäudetechnik**; Klarstellung zur Kumulation mit PV-Eigenversorgung.",
+    "source_url": "https://example.org/foerderung",
+    "source_org": "Beispielministerium",
+    "change_type": "Änderung",
+    "impact_notes": "Auswirkungen: +2–5% förderfähige Summe; Schnittstellen zur Mieterstromabrechnung prüfen.",
+    "tags_csv": "Förderung,Sanierung,PV"
+  },
+  {
+    "id": "seed-002",
+    "recorded_at": "2025-08-28T08:54:10Z",
+    "effective_date": "2025-09-27",
+    "category": "Tarif",
+    "region": "BW",
+    "title": "Neuer Wärmepumpen-Sondertarif eines EVU (Beispiel)",
+    "summary_md": "*Strompreis-Komponente* mit zeitvariabler Komponente; Teilnahme erfordert §14a-Steuerbarkeit.",
+    "source_url": "https://example.org/tarif",
+    "source_org": "Beispiel-EVU",
+    "change_type": "Neu",
+    "impact_notes": "WP-Betrieb mit PV-Überschüssen optimierbar; lohnt ab 2.500 kWh WP-Verbrauch/Jahr.",
+    "tags_csv": "Tarif,Wärmepumpe,§14a"
+  }
+]

@@ -110,7 +110,7 @@ st.sidebar.markdown("---")
 st.sidebar.caption("⚠️ Beispielhafte, nicht rechtsverbindliche Darstellung. Prüfen Sie stets die Originalquellen.")
 
 st.title("💶 Fördergeld Engine – Übersicht möglicher Förderoptionen")
-st.write("Ergebnisansicht basierend auf Ihren Parametern. Die Programmdaten sind **Platzhalter** und müssen vor Einsatz verifiziert/ersetzt werden.")
+st.write("Qrauts AG 2025 developed by MW")
 
 # ---------------------------
 # Filter + Berechnung
